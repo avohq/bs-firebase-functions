@@ -1,0 +1,16 @@
+{
+  "name": "bs-firebase-functions",
+  "version": "0.1.0",
+  "sources": [
+    "src"
+  ],
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": true
+  },
+  "suffix": ".bs.js",
+  "refmt": 3,
+  "bs-dependencies": [
+    "bs-firebase-admin"
+  ]
+}

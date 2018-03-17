@@ -1,0 +1,23 @@
+{
+  "name": "bs-firebase-functions",
+  "version": "0.1.0",
+  "scripts": {
+    "clean": "bsb -clean-world",
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w"
+  },
+  "keywords": [
+    "BuckleScript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "bs-platform": "^2.2.2"
+  },
+  "dependencies": {
+    "bs-firebase-admin": "^0.1.0",
+    "compose-middleware": "^4.0.0",
+    "cookie-parser": "^1.4.3",
+    "firebase-functions": "^0.8.2"
+  }
+}
